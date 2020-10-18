@@ -1,0 +1,29 @@
+push_front a 0
+push_front a -1
+push_front a 2
+push_front a -3
+push_front a 4
+push_front a -5
+pop_front a
+pop_front a
+pop_front a
+pop_front a
+pop_front a
+pop_front a
+newDefault b
+push_back b 0
+push_back b 1
+push_back b -2
+push_back b 2147483647
+push_back b -2147483648
+[]= b 3 11
+pop_back b
+push_back b 27
+push_back b 300
+[] b 5
+pop_back b
+pop_back b
+pop_back b
+pop_back b
+pop_back b
+pop_back b

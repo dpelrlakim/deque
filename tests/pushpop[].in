@@ -1,0 +1,41 @@
+newDefault dq1
+push_front dq1 0
+[] dq1 0
+push_front dq1 -1
+at dq1 0
+push_front dq1 2
+[] dq1 0
+push_front dq1 -3
+at dq1 0
+push_front dq1 4
+[] dq1 0
+push_front dq1 -5
+at dq1 0
+[] dq1 5
+at dq1 6
+pop_front dq1
+pop_front dq1
+pop_front dq1
+pop_front dq1
+pop_front dq1
+pop_front dq1
+newDefault dq1
+push_back dq1 0
+at dq1 0
+push_back dq1 1
+[] dq1 1
+push_back dq1 -2
+at dq1 2
+push_back dq1 2147483647
+[] dq1 3
+push_back dq1 -2147483648
+at dq1 4
+push_back dq1 300
+[] dq1 5
+pop_back dq1
+pop_back dq1
+pop_back dq1
+pop_back dq1
+pop_back dq1
+pop_back dq1
+at dq1 0

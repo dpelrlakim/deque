@@ -1,0 +1,10 @@
+newDefault dq1
+empty dq1
+size dq1
+newInit dq2
+size dq2
+empty dq2
+= dq2 dq1
+= dq1 dq2
+empty dq1
+empty dq2

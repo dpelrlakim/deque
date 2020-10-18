@@ -1,0 +1,15 @@
+newDefault dq1
+= dq2 dq1
+push_front dq1 0
+= dq2 dq1
+newInit dq1
+push_back dq1 -10
+push_back dq1 10
+push_back dq1 372
+= dq2 dq1
+pop_front dq1
+pop_front dq1
+pop_back dq1
+= dq2 dq1
+newDefault dq3
+= dq1 dq3

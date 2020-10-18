@@ -1,0 +1,35 @@
+newInit a
+pop_back a
+pop_back a
+pop_back a
+pop_back a
+pop_back a
+pop_back a
+pop_back a
+push_front a -7
+pop_back a
+push_front a -8
+pop_back a
+push_front a -9
+at a 0
+pop_back a
+push_front a 1
+pop_back a
+push_front a 2
+pop_back a
+push_front a 3
+pop_back a
+pop_back a
+push_front a -10
+pop_back a
+newInit a
+push_front a -6
+push_front a -5
+push_front a -4
+push_front a -3
+push_front a -2
+push_front a -1
+push_front a 0
+[] a 0
+[] a 9
+[] a 14

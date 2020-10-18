@@ -1,0 +1,17 @@
+newInit a
+push_back a 23
+push_back a 29
+push_back a 31
+[] a 9
+pop_front a
+pop_front a
+pop_back a
+[] a 7
+newDefault dq2
+= a dq2
+push_front a 1
+push_front a 0
+push_front a -1
+pop_back a
+pop_back a
+pop_back a

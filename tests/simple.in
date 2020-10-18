@@ -1,0 +1,18 @@
+newDefault dq1
+push_front dq1 0
+push_back dq1 23
+push_front dq1 -50
+push_back dq1 2
+[] dq1 0
+[] dq1 1
+[] dq1 2
+[] dq1 3
+[]= dq1 1 -2147483648
+pop_front dq1
+[] dq1 0
+[]= dq1 1 2147483647
+pop_back dq1
+[] dq1 1
+= dq2 dq1
+[] dq2 0
+[] dq2 1

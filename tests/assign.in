@@ -1,0 +1,6 @@
+newInit a
+[]= a 1 37
+pop_front a
+[] a 0
+[]= a 0 29
+[] a 0

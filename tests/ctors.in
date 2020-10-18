@@ -1,0 +1,24 @@
+newDefault dq1
+newInit dq1
+= dq1 dq2
+push_back dq2 0
+newInit dq2
+= dq1 dq2
+newDefault dq3
+push_front dq3 -2000
+= dq1 dq3
+pop_back dq1
+= dq2 dq1
+[]= dq3 0 3000
+= dq1 dq3
+push_back dq1 1
+push_back dq1 2
+push_back dq1 3
+push_back dq1 4
+push_back dq1 5
+= dq2 dq1
+at dq2 6
+[] dq2 5
+= dq2 dq3
+= dq2 dq1
+= dq3 dq2
