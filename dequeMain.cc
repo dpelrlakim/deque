@@ -3,6 +3,8 @@
 #include <string>
 #include "deque.h"
 
+#define DEBUGGING 0
+
 using std::cout;
 using std::cin;
 using std::cerr;
@@ -32,7 +34,7 @@ int main () {
       cin >> index >> val;
       allDeques[dequeName][index] = val;
     }
-    else if (cmdString == "[]") {
+    else if (cmdString == "[]") { 
       int index;
       cin >> index;
       cout << allDeques[dequeName][index] << endl;
@@ -71,7 +73,9 @@ int main () {
     }
 
     for (auto &x: allDeques) { // Map
-      //x.second.printStuff();
+      #if DEBUGGING
+      x.second.printStuff();
+      #endif
       cout << x.first << ":";
       for (auto &y: x.second) { // deque
         cout << " " << y;
