@@ -72,16 +72,18 @@ int main () {
       allDeques[dequeName].pop_back();
     }
 
-    for (auto &x: allDeques) { // Map
+    for (auto &x: allDeques) {
       #if DEBUGGING
       x.second.printStuff();
       #endif
       cout << x.first << ":";
-      for (auto &y: x.second) { // deque
+      for (auto &y: x.second) {
         cout << " " << y;
       }
       cout << endl;
-      //cout << "-----------------------\n";
+      #if DEBUGGING
+      cout << "-----------------------\n";
+      #endif
     }
   }
 }
